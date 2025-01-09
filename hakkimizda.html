@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/7ab486c0f3.js" crossorigin="anonymous"></script>
+    <!--font awesomeden gerekli ikonların eklenebilmesi için lazım olan kodlar-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezzet Dünyası Hakkımızda</title>
+
+    <!-- <link rel="shortcut icon" type="ba-v yapı" href="ba-v.jpg">logonun arama çubuğunda görünmesi-->
+
+    <!--google font dan istediğimiz yazı stilini kullanmak için lazım olan kodlar-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css"><!--css sayfası ile bağlantı-->
+
+
+    <style>
+        .yatay {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            /* Satır taşmalarını önlemek için flex-wrap ekledim */
+        }
+
+        .altbolum {
+            width: 500px;
+            height: 500px;
+            text-align: center;
+            vertical-align: middle;
+            gap: 20px;
+        }
+
+        .resim {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            /* Resimlerin oranlarını koruyarak yeniden boyutlanmasını sağlar */
+        }
+
+        .metin {
+            height: auto;
+            /* Metin yüksekliğini içeriğe göre otomatik ayarlamak için */
+            padding: 3px;
+            margin-right: 3px;
+        }
+
+        /* Mobil cihazlar için */
+        @media (max-width: 768px) {
+            .altbolum {
+                width: 100%;
+                /* Alt bölümleri tam genişlikte olacak şekilde ayarladım */
+                height: auto;
+                /* Yüksekliği içeriğe göre ayarladım */
+            }
+
+            .yatay {
+                justify-content: center;
+                /* Yatayda ortalanması için */
+            }
+
+            .resim {
+                width: 80%;
+                max-width: none;
+                /* Maksimum genişlik sınırını kaldırdım */
+            }
+
+            .metin {
+                margin-right: 0;
+                /* Sağ boşluğu kaldırdım */
+            }
+        }
+
+        /* Tabletler için */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .altbolum {
+                width: 45%;
+                /* Alt bölümleri daha küçük yaparak iki yan yana gelmelerini sağladım */
+                height: auto;
+                /* Yüksekliği içeriğe göre ayarladım */
+            }
+
+            .resim {
+                width: 100%;
+                max-width: none;
+                /* Maksimum genişlik sınırını kaldırdım */
+            }
+
+            .metin {
+                margin-right: 0;
+                /* Sağ boşluğu kaldırdım */
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <section id="menu"><!-- menu alanının oluşturulması-->
+        <div id="logo">
+            <a href="web1.html"><!--logo için bağlantı oluşturulması-->
+                <a href="web1.php" style="color: white;"><i class=""></i>LEZZET DÜNYASI</a>
+
+            </a>
+        </div><!--logonun eklenmesi-->
+        <div class="hamburger" id="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav id="nav">
+            <a href="web1.php"><i class="fa-solid fa-house ikon"></i>ANASAYFA</a>
+
+            <a href="hakkimizda.html"><i class="fa-solid fa-building ikon"></i>HAKKIMIZDA</a>
+
+            <a href="tarifler.php"><i class="fa-solid fa-building ikon"></i>TARİFLER</a>
+            <a href="iletisim.php"><i class="fa-solid fa-phone ikon"></i>İLETİŞİM</a>
+        </nav>
+    </section>
+
+
+    </div>
+    <section class="about">
+        <h1 class="heading">Hakkımızda</h1>
+        <div class="row">
+            <div class="image">
+                <img src="indir (1).jpeg" alt="hakkımızda">
+            </div>
+            <div class="content">
+                <p>
+                    Merhaba!
+
+                Lezzetin birleştirici gücüne inanarak yola çıktık. Amacımız, mutfağınızı şenlendirecek, sofralarınıza
+                tat katacak ve sevdiklerinizle paylaşabileceğiniz en özel tarifleri sunmak. Geleneksel Türk mutfağından
+                modern dünya lezzetlerine kadar geniş bir yelpazede tarifler hazırlıyor ve yemek pişirme deneyiminizi
+                daha keyifli hale getirmek için pratik öneriler sunuyoruz.
+
+                Sitemizde sadece tarifler değil, aynı zamanda sağlıklı beslenme önerileri, kalorisi düşük alternatifler
+                ve yemeklerin besin değerlerine dair detaylı bilgiler de bulabilirsiniz. "Her yemeğin bir hikayesi var"
+                diyerek, lezzetin ötesinde her tabağa anlam katmayı hedefliyoruz.
+
+                Mutfağa olan tutkumuzu sizlerle paylaşmak için buradayız. Deneyimlerinizi bizimle paylaşmayı unutmayın;
+                çünkü bu yolculukta en büyük ilham kaynağımız sizsiniz!
+
+                Afiyetle ve sevgiyle,
+
+                <br><br><br>
+                LEZZET DÜNYASI
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+
+ 
+
+
+    <!--footer alanı-->
+    <section class="footer">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-youtube"></a>
+           
+
+        </div>
+
+        <div class="links">
+            <a href="web1.php">Anasayfa</a>
+            <a href="hakkimizda.html">Hakkımızda</a>
+
+            <a href="tarifler.php">Tarifler</a>
+
+        </div>
+
+        <div class="inner">
+
+            <div class="helpful_links">
+                <div class="inner_list">
+                    <div class="inner_title">
+                        <a href="iletisim.php">İletişim</a>
+                    </div>
+                    <ul>
+                        <li><a href="#">@lezzetdünyasi</a></li>
+                        <li><a href="tel:0 532 408 53 94">0533 678 87 87</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="credit">
+            created by <span>Helin Akyıldız</span> | all rigths reserved
+        </div>
+    </section>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hamburger = document.getElementById('hamburger');
+            const nav = document.getElementById('nav');
+
+            hamburger.addEventListener('click', function () {
+                nav.classList.toggle('show');
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
