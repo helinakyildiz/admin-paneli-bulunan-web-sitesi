@@ -19,7 +19,7 @@ Bu proje, **HTML**, **CSS** ve **PHP** kullanılarak geliştirilmiş, dinamik ya
 
 - HTML5
 - CSS3
-- PHP (Vanilla)
+- PHP 
 - MySQL (veritabanı)
 
 
